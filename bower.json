@@ -1,0 +1,31 @@
+{
+  "name": "validly-extras",
+  "main": "validly-extras.js",
+  "version": "v0.0.1-alpha",
+  "homepage": "https://github.com/rockerest/validly-extras",
+  "authors": [
+    "rockerest <admin@rockerest.com>"
+  ],
+  "description": "A plugin to provide higher-level validators for Validly",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "validly",
+    "validator",
+    "ipv4",
+    "ipv6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor"
+  ],
+  "dependencies": {
+    "validly": "~0.0.2"
+  }
+}
