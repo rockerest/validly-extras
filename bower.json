@@ -1,7 +1,7 @@
 {
   "name": "validly-extras",
   "main": "validly-extras.js",
-  "version": "v0.0.1-alpha",
+  "version": "v0.0.1",
   "homepage": "https://github.com/rockerest/validly-extras",
   "authors": [
     "rockerest <admin@rockerest.com>"
@@ -26,6 +26,11 @@
     "vendor"
   ],
   "dependencies": {
-    "validly": "~0.0.2"
+    "validly": "*"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "require": "requirejs#~2.1.11"
   }
 }
